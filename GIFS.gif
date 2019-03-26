@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<style>
+body {
+background-image: url("Hex Pattern.jpg");
+font-family: 'Lilita One', cursive;
+text-decoration-color: white;
+}
+
+h1{
+ color: darkgray;
+}
+h2{
+ color: darkgray;
+}
+h3{
+ color: darkgray;
+}
+p{
+color: gray;
+}
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+a {
+color: red;
+text-decoration: none;
+display:block;
+background: limegreen;
+width: 150px;
+height:30px;
+padding: 10px;
+margin: 10px;
+border: 1px solid black;
+text-align: center;
+
+}
+a:hover {
+ background: black;
+ color: limegreen;
+ border radius: 50%;
+}
+a:active {
+ color: red;
+ background: red;
+ width
+}
+}
+</style>
+<img src="Tibbs-animation.gif" alt="really cool Amazing Pic" class="Bravo">
+
+  <img src="Tibbs-animation.gif" alt="really cool Amazing Pic" class="gradient">
+
+    <img src="Tibbs-animation.gif" alt="really cool Amazing Pic" class="Delta">
+
+      <img src="Tibbs-animation.gif" alt="really cool Amazing Pic" class="Echo">
+
+        <img src="Tibbs-animation.gif" alt="really cool Amazing Pic" class="Foxtrot">
+
+          <img src="Tibbs-animation.gif" alt="really cool Amazing Pic" class="Golf">
