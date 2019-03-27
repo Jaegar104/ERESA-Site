@@ -6,63 +6,109 @@
   <title>transforms page</title>
   <style>
     body {
-      background-color: #fedcba;
+      background-color: #a223;
     }
 
     div {
       width: 100px;
       height: 100px;
-      background-color: #987654;
+      background-color: #fedcba;
       margin: 1rem;
     }
 
-    #box1 {}
+    #box1 {
+      transition: transform 1s, border-radius 1s, background-color 2s;
+        transform:scale(.25);
+    }
 
     #box1:hover {
       transform: rotate(20deg);
       border-radius: 20%;
-      background-color: #456789;
+
     }
 
-    #box2 {}
+    #box2 {
+      transition: transform 1s linear;
+      transform:scale(.25);
+    }
 
-    #box2:hover {}
+    #box2:hover {
 
-    #box3 {}
+      transform: scale(1.25);
+    }
 
-    #box3:hover {}
+    #box3 {
+      transition: transform 1s, border-radius 1s, background-color 2s;
+        transform:scale(.25);
+    }
 
-    #box4 {}
+    #box3:hover {
+        transform: rotate(20deg);
+    }
 
-    #box4:hover {}
+    #box4 {
+        transition: transform 1s, border-radius 1s, background-color 2s;
+          transform:scale(.25);
+    }
 
-    #box5 {}
+    #box4:hover {
+       transform:  rotateX(20deg);
 
-    #box5:hover {}
+}
+    #box5 {
+        transition: transform 1s, border-radius 1s, background-color 2s;
+          transform:scale(.075);
+    }
 
-    #box6 {}
+    #box5:hover {
+        transform:scale(.075);
+transform: rotate(20deg);
 
-    #box6:hover {}
+    }
 
-    #box7 {}
+    #box6 {
+      transition: transform 1s, border-radius 1s, background-color 2s;
+        transform:scale(.25);
+}
 
-    #box7:hover {}
+    #box6:hover {
 
-    #box8 {}
+       transform: rotate(20deg);
+       border-radius: 20%;
 
-    #box8:hover {}
+    }
+
+    #box7 {
+      transition: transform 1s, border-radius 1s, background-color 2s;
+        transform:scale(.125);
+    }
+
+    #box7:hover {
+      transform: rotate(20deg);
+      border-radius: 20%;
+    }
+
+    #box8 {
+      transition: transform 1s, border-radius 1s, background-color 2s;
+        transform:scale(.25);
+    }
+
+    #box8:hover {
+      transform: rotate(20deg);
+      border-radius: 20%;
+    }
   </style>
 </head>
 
 <body>
-  <div id="box1"> </div>
-  <div id="box2"> </div>
-  <div id="box3"> </div>
-  <div id="box4"> </div>
-  <div id="box5"> </div>
-  <div id="box6"> </div>
-  <div id="box7"> </div>
-  <div id="box8"> </div>
+  <div id="box1"> <img src = "AvaycnRestored.png"></div>
+  <div id="box2"> <img src = "AetherRevolt.png"></div>
+  <div id="box3"> <img src = "HourofDevastion.png"></div>
+  <div id="box4"> <img src = "SOK.png"></div>
+  <div id="box5"> <img src = "BoZ.png"></div>
+  <div id="box6"> <img src = "MM2_C.png"></div>
+  <div id="box7"> <img src = "dragons_of_tarkir_set_grande.png"></div>
+  <div id="box8"> <img src = "AKH.png"></div>
 </body>
 
 </html>
