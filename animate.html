@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Animations!!!</title>
+    <style>
+      .bob {
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        animation-name: example;
+        animation-duration:4s;
+        animation-iteration-count: infinite;
+
+      }
+      .element {
+        width: 100px;
+        height: 100px;
+        background-color: black;
+  animation-name: tutsFade;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+.george {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  animation-name: square-to-circle;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+.jill {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  animation-duration: 2s;
+    animation-name: bounceIn;
+}
+      @keyframes example {
+  0%{
+      opacity: 1;
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50%{
+    background-color: orange;
+  }
+  75%{
+    background-color:brown;
+    opacity: 0;
+  }
+}
+@keyframes tutsFade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+
+}
+@-webkit-keyframes square-to-circle {
+  0%  {
+    border-radius:0 0 0 0;
+  }
+  25%  {
+    border-radius:50% 0 0 0;
+  }
+  50%  {
+    border-radius:50% 50% 0 0;
+  }
+  75%  {
+    border-radius:50% 50% 50% 0;
+  }
+  100% {
+    border-radius:50%;
+  }
+
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+}
+
+      </style>
+  </head>
+  <body>
+
+<div class="bob"> </div>
+<div class="element"> </div>
+<div class="george"> </div>
+<div class="jill"> </div>
+
+  </body>
+</html>
