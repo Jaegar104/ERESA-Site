@@ -6,13 +6,21 @@
     <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet"
   <title>Seahorse Grid</title>
   <style>
-    body {
-        background-image: url("Reef.jpg");
-      font-family: 'Lilita One', cursive;
-      text-decoration-color: white;
-      background-size: cover;
-      background-attachment: fixed;
-    }
+
+
+  body {
+      background-image: url("Reef.jpg");
+    font-family: 'Lilita One', cursive;
+    text-decoration-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+   @media only screen and (min-width:768px) {
+
+body {
+text-decoration-color: white;
+}
     .grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -55,6 +63,9 @@
       opacity: .8;
 
     }
+
+
+  }
   </style>
 </head>
 
