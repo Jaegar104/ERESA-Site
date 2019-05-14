@@ -1,0 +1,85 @@
+body {
+background-image: url("Hex Pattern.jpg");
+font-family: 'Lilita One', cursive;
+text-decoration-color: white;
+}
+
+h1{
+color: darkgray;
+}
+h2{
+color: darkgray;
+}
+h3{
+color: darkgray;
+}
+p{
+color: gray;
+}
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+}
+.span-col-2 {
+ grid-column: span 2 / auto;
+ background: #ffffff88;
+   width: 800px;
+     border-radius: 15px;
+       text-align:center;
+}
+
+nav{
+  background: #456789;
+  width: 250px;
+  height: 220px;
+  border-radius: 15px;
+    text-align:left;
+}
+@media only screen and (min-width:768px) {
+
+body {
+
+text-decoration-color: white;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+nav{
+  background: #456789;
+  width: 250px;
+  height: 220px;
+  border-radius: 15px;
+    text-align:center;
+}
+.span-col-2 {
+ grid-column: span 2 / auto;
+ background: #ffffff88;
+   width: 800px;
+     border-radius: 15px;
+       text-align:center;
+}
+.span-col-3 {
+  grid-column: span 3 / auto;
+  background: #ffffff88;
+  width: 250px;
+  border-radius: 15px;
+    text-align:center;
+}
+#title {
+  background:#45678999;
+  color:white;
+  border-radius: 15px;
+  width: 270px;
+  height: 150px;
+  text-align:center;
+  background
+}
+
+
+
+}
